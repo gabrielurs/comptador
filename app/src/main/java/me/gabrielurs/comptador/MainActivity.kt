@@ -4,6 +4,7 @@ import android.content.IntentSender
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.CountDownTimer
+import android.util.Log
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
@@ -11,6 +12,7 @@ import org.w3c.dom.Text
 
 class MainActivity : AppCompatActivity() {
     private val INITIAL_TIME = 3
+    private val TAG = MainActivity::class.java.simpleName;
     internal lateinit var tapMeButton: Button
     internal lateinit var timeTextView: TextView
     internal lateinit var counterTextView: TextView
@@ -25,6 +27,10 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        Log.d(TAG, "Hola mon! onCreate")
+        Log.d(TAG,counter.toString())
+        Log.d(TAG,time.toString())
+
 
         initCountdown();
 
