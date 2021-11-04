@@ -1,7 +1,6 @@
 <resources>
-    <string name="app_name">comptador</string>
-    <string name="touchMe">Tocam</string>
-    <string name="timeTextView">Temps disponible: %1$d</string>
-    <string name="endGame">Temps Acabat! Resultat: %1$d</string>
-
+    <string name="app_name">TFighter</string>
+    <string name="yourScore">Your Score: %1$d</string>
+    <string name="timeLeft">Time Left: %1$d</string>
+    <string name="tapMe">Tap Me!</string>
 </resources>
