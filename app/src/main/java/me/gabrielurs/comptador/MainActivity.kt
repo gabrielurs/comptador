@@ -3,13 +3,9 @@ package me.gabrielurs.comptador
 import android.os.Bundle
 import android.os.CountDownTimer
 import android.util.Log
-import android.view.Menu
-import android.view.MenuItem
 import android.view.animation.AnimationUtils
 import android.widget.Button
 import android.widget.TextView
-import android.widget.Toast
-import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
