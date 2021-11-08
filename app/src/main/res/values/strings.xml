@@ -3,4 +3,7 @@
     <string name="yourScore">Your Score: %1$d</string>
     <string name="timeLeft">Time Left: %1$d</string>
     <string name="tapMe">Tap Me!</string>
+    <string name="aboutMenu">About</string>
+    <string name="aboutTitle">Time Fighter %1$s</string>
+    <string name="aboutMessage">Creat per Gabriel Urs</string>
 </resources>
